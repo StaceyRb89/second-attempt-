@@ -99,6 +99,14 @@ button {
     cursor: pointer;
 }
 .container2 {
-    width: 500px;
-    height: 281px;
+    position: relative;
+    width: 100%;
+    padding-bottom: 55%;
+}
+.container2 iframe {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
