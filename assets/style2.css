@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: lightgrey;
+    height: 600%;
+    background-size: cover;
+    background-position: center;
+}
+ul {
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+}
+ul li {
+    display: inline-block;
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover {
+    background-color: white;
+    color: black;
+}
+ul li.active a {
+    background-color: white;
+    color: black;
+}
+.container {  
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    padding: 10px;
+}
+.container .heading h3 {
+    border-bottom: 3px solid black;
+}
+/* Style the image boxes */
+.box {
+    border: 1px solid #ccc;
+    margin: 0;
+}
+
+.pics img {
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+}
