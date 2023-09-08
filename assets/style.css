@@ -3,12 +3,6 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-header {
-    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(jake2.jpg);
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-}
 ul {
     list-style-type: none;
     float: right;
@@ -116,5 +110,28 @@ button {
     .title h1 {
         font-size: 40px;
     }
-    
+
+}
+img{
+        padding-top: 1%;
+        width: 400px;
+        height: 500px;
+        object-fit: cover;
+        padding: 5px;
+}
+img:hover {
+        cursor: pointer;
+        opacity: 0.5;
+        transition: 0.5s;
+}
+img2 {
+        display: flex;
+        max-width: 1200px;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+}
+body {
+    background-color: rgb(208, 208, 193);
 }

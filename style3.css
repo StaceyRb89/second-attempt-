@@ -140,3 +140,6 @@ img {
     width: 300px;
     height: 200px;
 }
+.body {
+    background-color: rgb(205, 205, 187);
+}
