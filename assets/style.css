@@ -41,7 +41,7 @@ ul li.active a {
 .title h1 {
     color: white;
     font-size: 70px;
-}
+    }
 .button {
     top: 60%;
     left: 50%;
@@ -110,4 +110,11 @@ button {
     width: 100%;
     top: 10%;
     left: 0;
+    pointer-events: all;
+}
+@media only screen and (max-width: 800px) {
+    .title h1 {
+        font-size: 40px;
+    }
+    
 }
